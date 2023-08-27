@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 bold=`echo -en "\e[1m"`
 underline=`echo -en "\e[4m"`
 dim=`echo -en "\e[2m"`
@@ -43,39 +44,48 @@ LIGHTAQUA=`echo -en "\e[106m"`
 WHITE=`echo -en "\e[107m"`
 DEFAULT=`echo -en "\e[49m"`;
 
-echo "                                                                    +::::::::::::::::::::::::::::::::::::::+"
-echo " Bappi               Seam                                           + :..................................: +"
-echo " Munna             Siam                                             + :            .. : :. .  .          : +"
-echo " Rahul           Tuly                                               + :      .   ::..:.:... ::.  ..      : +"
-echo " Rashi        Toma                                                  + :       ......:.:-:.:. .::.        : +"
-echo " Reyad      Mohi                 Mahi\       Musfika                + :  :::..........:--:.......::::::  : +"
-echo " Rimon   Kazi                    Munna       Bappi/                 + :...............---:...............: +"
-echo " Sahan Emon                      Rashi       Rahul                  + :             ...::...             : +"
-echo " Mahin Faisal                    Rimon       Reyad                  + :               ....               : +"
-echo " Sajal Ishrak                    Sakib       Sajal                  + : -------:     .-         :-------.: +"
-echo " Sakib    Mahfuz                 Sobuj       Shams                  + : ---:.:-:   :.-- :=.     :-:::::-.: +"
-echo " Shams      Kawsar               Tamal       Summa                  + : :.: ..-:   -++=-:       :-... :-.: +"
-echo " Sobuj         Durjay            Sabbir      Turjo                  + : : .. .::    =+=         :- . ::-.: +"
-echo " Summa           Moinul          Shibly      Sahan                  + : :-:...-:    ++:  ...    :-....:-.: +"
-echo " Tamal             Marufa        Jagaran|||||Toma                   + : --:. .-:   .++:-+++++:  :-. :---.: +"
-echo " Turjo               Pranto          Mahazabin                      + : -:....-:   :+++++++++   :-.  :--.: +"
-echo "                                                                    + : --: :.-:   .++++++++:   ::.....-.: +"
-echo "                                                                    = : ---...--    +++-:-++.   --.:::-- : ="
-echo "       Welcome 33th batch of KU CSE !                               -:..::.....-:   =+-   ++.  .-:.:..:: ..-"
-echo "                                                                    + : --: :.-:   .++++++++:   ::.....-.: +"
-echo "                                                                    = : ---...--    +++-:-++.   --.:::-- : ="
-echo "     Mustafiz          Sabbir|Mohi       Mahfuz|Mashrafi            -:..::.....-:   =+-   ++.  .-:.:..:: ..-"
-echo " Jannatul|Jagaran    Mashrafi|Musfika    Jannatul|Ishrak             = : -:....--:  :+-   +:  .-:. ..:-.: =."
-echo " Emon        Kazi    Saadiq      Seam    Faisal|Mustafiz             :: ..------.....-.  .-..:::.. ---.. :- "
-echo " Seam                Pranto                                           -: ..---:..::::::::::.:.. .::--.. :-  "
-echo " Mohi                  Moinul                                          :- ..:-.:: .  :.:... :: ::.::.. --   "
-echo " Toma                    Durjay          Kawsar|Moinul        Musfika\    Jagaran     .....: :---:....-.    "
-echo " Tuly                      Kawsar        Durjay|Marufa      Seam   Emon   Sabbir|\    -:.. -:::.....-:      "
-echo " Emon                        Durjay                               Mohi        Pranto  ...........:-.        "
-echo " Siam                         Marufa                             Rahul    Shibly||||  ..:::::::.           "
-echo " Kazi        Emon    Toma       Shibly   Jannatul|Faisal       Munna          Marufa" 
-echo " Mashrafi|Musfika    Jagaran|Mustafiz    Ishrak|Shahriar      Bappi       Saadiq|/"   
-echo "     Shahriar            Mahazabin       Mustafiz|Mahfuz     Mahazabin|   Musfika"    
+r='\033[0;31m'
+g='\033[0;32m'
+y='\033[0;33m'
+b='\033[0;34m'
+m='\033[0;35m'
+c='\033[0;36m'
+clr='\033[0m'
+bold='\033[1m'
+
+echo -e "                                                                    ${aqua}+::::::::::::::::::::::::::::::::::::::+${clr}"
+echo -e "  ${m}Bappi${clr}               ${y}Seam${clr}                                          ${aqua}+ :..................................: +${clr}"
+echo -e "  ${c}Munna${clr}             ${b}Siam${clr}                                            ${aqua}+ :            .. : :. .  .          : +${clr}"
+echo -e "  ${b}Rahul${clr}           ${m}Tuly${clr}                                              ${aqua}+ :      .   ::..:.:... ::.  ..      : +${clr}"
+echo -e "  ${c}Rashi${clr}        ${r}Toma${clr}                                                 ${aqua}+ :       ......:.:-:.:. .::.        : +${clr}"
+echo -e "  ${m}Reyad${clr}      ${b}Mohi${clr}                 ${r}Mahi\ ${clr}      ${b}Musfika${clr}               ${aqua}+ :  :::..........:--:.......::::::  : +${clr}"
+echo -e "  ${b}Rimon${clr}   ${r}Kazi${clr}                    ${c}Munna${clr}       ${m}Bappi/${clr}                ${aqua}+ :...............---:...............: +${clr}"
+echo -e "  ${c}Sahan${clr} ${m}Emon${clr}                      ${c}Rashi${clr}       ${b}Rahul${clr}                 ${aqua}+ :             ...::...             : +${clr}"
+echo -e "  ${r}Mahin${clr} ${b}Faisal${clr}                    ${b}Rimon${clr}       ${m}Reyad${clr}                 ${aqua}+ :               ....               : +${clr}"
+echo -e "  ${g}Sajal${clr} ${r}Ishrak${clr}                    ${g}Sakib${clr}       ${g}Sajal${clr}                 ${aqua}+ : -------:     ${y}.-${clr}         ${aqua}:-------.: +${clr}"
+echo -e "  ${g}Sakib${clr}    ${b}Mahfuz${clr}                 ${g}Sobuj${clr}       ${r}Shams${clr}                 ${aqua}+ : ---:.:-:   ${y}:.-- :=.${clr}     ${aqua}:-:::::-.: +${clr}"
+echo -e "  ${r}Shams${clr}      ${y}Kawsar${clr}               ${b}Tamal${clr}       ${y}Summa${clr}                 ${aqua}+ : :.: ..-:   ${y}-++=-:${clr}       ${aqua}:-... :-.: +${clr}"
+echo -e "  ${g}Sobuj${clr}         ${g}Durjay${clr}            ${b}Sabbir${clr}      ${y}Turjo${clr}                 ${aqua}+ : : .. .::    ${y}=+=${clr}         ${aqua}:- . ::-.: +${clr}"
+echo -e "  ${y}Summa${clr}           ${r}Moinul${clr}          ${g}Shibly${clr}      ${c}Sahan${clr}                 ${aqua}+ : :-:...-:    ${y}++:  ...${clr}    ${aqua}:-....:-.: +${clr}"
+echo -e "  ${b}Tamal${clr}             ${m}Marufa${clr}        ${m}Jagaran${clr}|||||${r}Toma${clr}                  ${aqua}+ : --:. .-:   ${y}.++:-+++++:${clr}  ${aqua}:-. :---.: +${clr}"
+echo -e "  ${y}Turjo${clr}               ${r}Pranto${clr}          ${b}Mahazabin${clr}                     ${aqua}+ : -:....-:   ${y}:+++++++++${clr}   ${aqua}:-.  :--.: +"
+echo -e "                                                                    ${aqua}+ : --: :.-:   ${y}.++++++++:${clr}   ${aqua}::.....-.: +${clr}"
+echo -e "                                                                    ${aqua}= : ---...--    ${y}+++-:-++.${clr}   ${aqua}--.:::-- : =${clr}"
+echo -e "  ${bold}Welcome 33rd batch of KU CSE !${clr}                                    ${aqua}-:..::.....-:   ${y}=+-   ++.${clr}  ${aqua}.-:.:..:: ..-${clr}"
+echo -e "                                                                    ${aqua}+ : --: :.-:   ${y}.+++   ++:${clr}   ${aqua}::.....-.: +${clr}"
+echo -e "                                                                    ${aqua}= : ---...--    ${y}+++   ++.${clr}   ${aqua}--.:::-- : =${clr}"
+echo -e "      ${m}Mustafiz${clr}          ${b}Sabbir${clr}|${b}Mohi${clr}       ${b}Mahfuz${clr}|${c}Mashrafi${clr}           ${aqua}-:..::.....-:${clr}   ${y}=+-   ++.${clr}  ${aqua}.-:.:..:: ..-${clr}"
+echo -e "  ${c}Jannatul${clr}|${m}Jagaran${clr}    ${c}Mashrafi${clr}|${g}Musfika${clr}    ${c}Jannatul${clr}|${r}Ishrak${clr}            ${aqua}= : -:....--:${clr}  ${y}:+-   +:${clr}  ${aqua}.-:. ..:-.: =.${clr}"
+echo -e "  ${m}Emon${clr}        ${r}Kazi${clr}    ${m}Saadiq${clr}      ${y}Seam${clr}    ${b}Faisal${clr}|${m}Mustafiz${clr}            ${aqua}:: ..------....${clr}${y}.-.  .-.${clr}${aqua}.:::.. ---.. :- ${clr}"
+echo -e "  ${y}Seam${clr}                ${r}Pranto${clr}                                          ${aqua}-: ..---:..::::::::::.:.. .::--.. :-  ${clr}"
+echo -e "  ${b}Mohi${clr}                  ${r}Moinul${clr}                                         ${aqua}:- ..:-.:: .  :.:... :: ::.::.. --   ${clr}"
+echo -e "  ${r}Toma${clr}                    ${g}Durjay${clr}          ${y}Kawsar${clr}|${r}Moinul${clr}       ${c}Musfika\ ${clr}   ${g}Jagaran${clr}     ${aqua}.....: :---:....-.    ${clr}"
+echo -e "  ${m}Tuly${clr}                      ${y}Kawsar${clr}        ${g}Durjay${clr}|${m}Marufa${clr}     ${y}Seam${clr}   ${m}Emon${clr}   ${b}Sabbir|\ ${clr}   ${aqua}-:.. -:::.....-:      ${clr}"
+echo -e "  ${m}Emon${clr}                        ${g}Durjay${clr}                              ${b}Mohi${clr}        ${r}Pranto${clr}  ${aqua}...........:-.        ${clr}"
+echo -e "  ${b}Siam${clr}                         ${m}Marufa${clr}                            ${r}Rahul${clr}    ${g}Shibly||||${clr}   ${aqua}..:::::::.           ${clr}"
+echo -e "  ${r}Kazi${clr}        ${m}Emon${clr}    ${r}Toma${clr}       ${g}Shibly${clr}   ${c}Jannatul${clr}|${b}Faisal${clr}      ${c}Munna${clr}          ${m}Marufa${clr}"
+echo -e "  ${c}Mashrafi${clr}|${g}Musfika${clr}    ${m}Jagaran${clr}|${m}Mustafiz${clr}    ${r}Ishrak${clr}|${g}Shahriar${clr}     ${m}Bappi${clr}       ${m}Saadiq|/ ${clr}"
+echo -e "      ${g}Shahriar${clr}            ${b}Mahazabin${clr}       ${m}Mustafiz${clr}|${b}Mahfuz${clr}    ${b}Mahazabin${clr}|   ${g}Musfika${clr}"
 echo "${aqua} _     ___    __    ___   __  _     _     ___    __    __       __    __  _   __      _     _   _   _   ___  "
 echo "${aqua}| |   | __|  /  \  | _ \ |  \| |   | |   | __|  /  \  | _\     /  \  |  \| | | _\    | |   | | | \ / | | __| "
 echo "${aqua}| |_  | _|  | /\ | | v / | | ' |   | |_  | _|  | /\ | | v |   | /\ | | | ' | | v |   | |_  | |  \ V /  | _|  "
