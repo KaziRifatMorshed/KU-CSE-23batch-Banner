@@ -58,7 +58,7 @@ echo -e "  ${m}Bappi${clr}               ${y}Seam${clr}                         
 echo -e "  ${c}Munna${clr}             ${b}Siam${clr}                                            ${aqua}+ :            .. : :. .  .          : +${clr}"
 echo -e "  ${b}Rahul${clr}           ${m}Tuly${clr}                                              ${aqua}+ :      .   ::..:.:... ::.  ..      : +${clr}"
 echo -e "  ${c}Rashi${clr}        ${r}Toma${clr}                                                 ${aqua}+ :       ......:.:-:.:. .::.        : +${clr}"
-echo -e "  ${m}Reyad${clr}      ${b}Mohi${clr}                 ${r}Mahi\ ${clr}      ${b}Musfika${clr}               ${aqua}+ :  :::..........:--:.......::::::  : +${clr}"
+echo -e "  ${m}Reyad${clr}      ${b}Mohi${clr}                 ${r}Mohi\ ${clr}      ${b}Musfika${clr}               ${aqua}+ :  :::..........:--:.......::::::  : +${clr}"
 echo -e "  ${b}Rimon${clr}   ${r}Kazi${clr}                    ${c}Munna${clr}       ${m}Bappi/${clr}                ${aqua}+ :...............---:...............: +${clr}"
 echo -e "  ${c}Sahan${clr} ${m}Emon${clr}                      ${c}Rashi${clr}       ${b}Rahul${clr}                 ${aqua}+ :             ...::...             : +${clr}"
 echo -e "  ${r}Mahin${clr} ${b}Faisal${clr}                    ${b}Rimon${clr}       ${m}Reyad${clr}                 ${aqua}+ :               ....               : +${clr}"
