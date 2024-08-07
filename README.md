@@ -3,6 +3,8 @@ This repository contains the source code that I and my intelligent classmate, Ib
 
 it is sad to say goodbye to Moinul (x2302xx), future doctors Marufa Apa (x230216) (KMC) and Mahamud (x230241) (JAMC). We wish you success in your life.
 
+![img](./final-banner-CSEKU23.png)
+
 Again, I want to thank 230201 for his support.   
 but, thank you, Recursive-23.
 
