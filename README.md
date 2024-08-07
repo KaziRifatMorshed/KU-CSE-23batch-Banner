@@ -8,6 +8,8 @@ but, thank you, Recursive-23.
 
 ---
 
-[![Stargazers repo roster for @KaziRifatMorshed/KU-CSE-23batch-Banner.git](https://reporoster.com/stars/KaziRifatMorshed/KU-CSE-23batch-Banner.git)](https://github.com/KaziRifatMorshed/KU-CSE-23batch-Banner.git/stargazers)
+Stargazers:  
+[![Stargazers repo roster for @KaziRifatMorshed/KU-CSE-23batch-Banner](https://reporoster.com/stars/KaziRifatMorshed/KU-CSE-23batch-Banner)](https://github.com/KaziRifatMorshed/KU-CSE-23batch-Banner/stargazers)
 
-[![Forkers repo roster for @KaziRifatMorshed/KU-CSE-23batch-Banner.git](https://reporoster.com/forks/KaziRifatMorshed/KU-CSE-23batch-Banner.git)](https://github.com/KaziRifatMorshed/KU-CSE-23batch-Banner.git/network/members)
+Forkers:  
+[![Forkers repo roster for @KaziRifatMorshed/KU-CSE-23batch-Banner](https://reporoster.com/forks/KaziRifatMorshed/KU-CSE-23batch-Banner)](https://github.com/KaziRifatMorshed/KU-CSE-23batch-Banner/network/members)
