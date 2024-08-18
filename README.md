@@ -10,6 +10,8 @@ but, thank you, Recursive-23.
 
 ---
 
+![Visitor Count](https : //profile-counter.glitch.me/{KaziRifatMorshed}/count.svg)
+
 Stargazers:  
 [![Stargazers repo roster for @KaziRifatMorshed/KU-CSE-23batch-Banner](https://reporoster.com/stars/KaziRifatMorshed/KU-CSE-23batch-Banner)](https://github.com/KaziRifatMorshed/KU-CSE-23batch-Banner/stargazers)
 
